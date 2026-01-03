@@ -1,5 +1,36 @@
 {
-  "products": [],
-  "orders": [],
+  "products": [
+    {
+      "id": "9712087b-4ac3-4f98-b8bd-ef638a527261",
+      "name": "test",
+      "description": "opis",
+      "price": 9.99,
+      "stock": 0
+    },
+    {
+      "id": "f9393cb9-708d-49a9-9a6e-22a1c6434797",
+      "name": "test5",
+      "description": "opis5",
+      "price": 5.55,
+      "stock": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": "45bf5cf0-cdeb-4c44-baa2-cf97dba2c02b",
+      "customerId": "cust-1",
+      "items": [
+        {
+          "productId": "f9393cb9-708d-49a9-9a6e-22a1c6434797",
+          "price": 5.55,
+          "quantity": 3,
+          "category": "electronics"
+        }
+      ],
+      "totalPrice": 19.147499999999997,
+      "discountApplied": 0,
+      "createdAt": "2026-01-03T16:17:06.115Z"
+    }
+  ],
   "customers": []
 }
